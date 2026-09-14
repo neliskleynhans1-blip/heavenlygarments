@@ -14,10 +14,10 @@ import {
   X,
 } from "lucide-react";
 
-import heroAsset from "@/assets/hg-hero.jpg.asset.json";
-import bridalAsset from "@/assets/hg-bridal.jpg.asset.json";
-import mantleAsset from "@/assets/hg-mantle.jpg.asset.json";
-import kidsAsset from "@/assets/hg-kids.jpg.asset.json";
+import heroAsset from "@/assets/hg-hero-clean.jpg.asset.json";
+import bridalAsset from "@/assets/hg-bridal-clean.jpg.asset.json";
+import mantleAsset from "@/assets/hg-mantle-clean.jpg.asset.json";
+import kidsAsset from "@/assets/hg-kids-clean.jpg.asset.json";
 
 const WHATSAPP = "https://wa.me/27793668659";
 const EMAIL = "ketubahheavenlygarments@gmail.com";
