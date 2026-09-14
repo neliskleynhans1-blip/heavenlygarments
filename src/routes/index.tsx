@@ -178,8 +178,8 @@ function HomePage() {
     <div className="min-h-screen overflow-x-hidden bg-stone text-espresso">
       {/* Header */}
       <header className="sticky top-0 z-40 border-b border-stone-dark/80 bg-white/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-[78px] w-full max-w-[1320px] items-center justify-between px-6 md:px-10">
-          <button onClick={() => go("home")} className="group text-left">
+        <div className="mx-auto flex h-[78px] w-full max-w-[1320px] items-center justify-between gap-6 px-6 md:px-10">
+          <button onClick={() => go("home")} className="group min-w-0 text-left">
             <div className="display text-[22px] leading-none font-semibold tracking-[0.18em] text-espresso transition-colors group-hover:text-gold-deep md:text-[26px]">
               KETUBAH
               <span className="font-light tracking-[0.08em]">: Heavenly Garments</span>
