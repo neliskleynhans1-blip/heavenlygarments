@@ -53,7 +53,7 @@ const COLLECTIONS = [
     title: "For Kings & Princes",
     desc: "Gifted to His princes and kings. You are royalty. Your garment will carry His authority into eternity.",
     img: heroAsset.url,
-    badge: "For Kings & Queens",
+    badge: "For Kings & Princes",
   },
   {
     title: "Queens & Princesses",
