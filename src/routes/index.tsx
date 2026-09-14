@@ -213,7 +213,7 @@ function HomePage() {
               href={WHATSAPP}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-10 items-center gap-2 rounded-full bg-gold px-6 text-[11px] font-medium tracking-[0.16em] uppercase text-ink shadow-[0_10px_24px_-10px_rgba(198,168,124,0.6)] transition-all hover:scale-[1.02] hover:bg-gold-soft active:scale-[0.98]"
+              className="flex h-10 shrink-0 items-center gap-2 rounded-full bg-gold px-6 text-[11px] font-medium tracking-[0.16em] whitespace-nowrap uppercase text-ink shadow-[0_10px_24px_-10px_rgba(198,168,124,0.6)] transition-all hover:scale-[1.02] hover:bg-gold-soft active:scale-[0.98]"
             >
               Book Consultation
             </a>
