@@ -14,10 +14,10 @@ import {
   X,
 } from "lucide-react";
 
-import heroAsset from "@/assets/hg-hero.jpg.asset.json";
-import bridalAsset from "@/assets/hg-bridal.jpg.asset.json";
-import mantleAsset from "@/assets/hg-mantle.jpg.asset.json";
-import kidsAsset from "@/assets/hg-kids.jpg.asset.json";
+import heroAsset from "@/assets/hg-hero-clean.jpg.asset.json";
+import bridalAsset from "@/assets/hg-bridal-clean.jpg.asset.json";
+import mantleAsset from "@/assets/hg-mantle-clean.jpg.asset.json";
+import kidsAsset from "@/assets/hg-kids-clean.jpg.asset.json";
 
 const WHATSAPP = "https://wa.me/27793668659";
 const EMAIL = "ketubahheavenlygarments@gmail.com";
@@ -178,23 +178,25 @@ function HomePage() {
     <div className="min-h-screen overflow-x-hidden bg-stone text-espresso">
       {/* Header */}
       <header className="sticky top-0 z-40 border-b border-stone-dark/80 bg-white/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-[78px] w-full max-w-[1320px] items-center justify-between px-6 md:px-10">
-          <button onClick={() => go("home")} className="group text-left">
+        <div className="mx-auto flex h-[78px] w-full max-w-[1320px] items-center justify-between gap-6 px-6 md:px-10">
+          <button onClick={() => go("home")} className="group min-w-0 text-left">
             <div className="display text-[22px] leading-none font-semibold tracking-[0.18em] text-espresso transition-colors group-hover:text-gold-deep md:text-[26px]">
-              KETUBAH
-              <span className="font-light tracking-[0.08em]">: Heavenly Garments</span>
+              <span className="whitespace-nowrap">
+                KETUBAH
+                <span className="font-light tracking-[0.08em]">: Heavenly Garments</span>
+              </span>
             </div>
             <div className="mt-1 text-[9px] font-medium tracking-[0.32em] uppercase text-gold-deep">
               Purposefully Designed • Clothed in Light
             </div>
           </button>
 
-          <nav className="hidden items-center gap-9 lg:flex">
+          <nav className="hidden items-center gap-7 lg:flex">
             {NAV.map((item) => (
               <button
                 key={item.key}
                 onClick={() => go(item.key)}
-                className={`text-[11px] font-medium tracking-[0.18em] uppercase transition-colors ${
+                className={`whitespace-nowrap text-[11px] font-medium tracking-[0.18em] uppercase transition-colors ${
                   active === item.key
                     ? "text-espresso underline decoration-gold/70 underline-offset-[10px]"
                     : "text-espresso/60 hover:text-espresso"
@@ -211,7 +213,7 @@ function HomePage() {
               href={WHATSAPP}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-10 items-center gap-2 rounded-full bg-gold px-6 text-[11px] font-medium tracking-[0.16em] uppercase text-ink shadow-[0_10px_24px_-10px_rgba(198,168,124,0.6)] transition-all hover:scale-[1.02] hover:bg-gold-soft active:scale-[0.98]"
+              className="flex h-10 shrink-0 items-center gap-2 rounded-full bg-gold px-6 text-[11px] font-medium tracking-[0.16em] whitespace-nowrap uppercase text-ink shadow-[0_10px_24px_-10px_rgba(198,168,124,0.6)] transition-all hover:scale-[1.02] hover:bg-gold-soft active:scale-[0.98]"
             >
               Book Consultation
             </a>
