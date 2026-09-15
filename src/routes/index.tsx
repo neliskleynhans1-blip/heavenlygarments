@@ -71,7 +71,7 @@ const COLLECTIONS = [
     title: "Heavenly Kids",
     desc: "Stitching Heaven into every childhood. For His little princes and princesses.",
     img: kidsAsset.url,
-    badge: "Little Princes",
+    badge: "Little Princes and Princesses",
   },
 ];
 
